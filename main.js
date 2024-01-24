@@ -18,18 +18,14 @@ const vips = [
 
 
 const arrayObj = vips.map((vip, index) => {
-
-for(let vip of vips){
-
     const guest = {
         tavolo: 'tavolo vip',
         ospite: vip,
         posto: index + 1,
     }
-
   return guest;
-}
-})
+});
+
 console.log(arrayObj);
 
 
@@ -74,10 +70,6 @@ console.log(arrayObj);
 // ]
 
 
-// let nameStudents = [];
 
-// for(let student of students){
-//     console.log(student.name)
-// }
 
 
