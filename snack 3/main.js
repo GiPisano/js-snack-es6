@@ -4,6 +4,10 @@ const bikes = [
         peso: 9,
     },
     {
+        nome: 'Cube',
+        peso: 6,
+    },
+    {
         nome: 'Giant',
         peso: 8,
     },
@@ -14,11 +18,7 @@ const bikes = [
     {
         nome: 'Merida',
         peso: 9,
-    },
-    {
-        nome: 'Cube',
-        peso: 6,
-    },
+    }
 ];
 
 let bikeLessWeight = bikes[0];
